@@ -7,7 +7,7 @@
 		if (!$('#mainNav').hasClass('navbar-reduce')) {
 			$('#mainNav').addClass('navbar-reduce');
 		}
-	})
+	});
 
 	// Preloader
 	$(window).on('load', function () {
