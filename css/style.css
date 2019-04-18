@@ -13,6 +13,26 @@ body {
   src: url("/fonts/Moonglade.ttf");
 }
 
+/* info button */
+#fazly,#ozkan{
+  display: inline-block;
+  background: #4285f4;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border-radius: 5px;
+  box-shadow: 0px 17px 10px -10px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  -webkit-transition: all ease-in-out 300ms;
+  transition: all ease-in-out 300ms;
+  position: relative;
+  right: 199px;
+  bottom: 40px;
+  
+}
+
+
+/* end of info button */
 /*********************** team members*******************/
 .box1 img,
 .box1:after,
@@ -808,12 +828,13 @@ a:hover {
   opacity: 0.9;
 }
 
-.navbar{
+.navbar {
   font-family: "Montserrat Font";
   font-size: 0.7rem;
   letter-spacing: 0.5rem;
 }
-.nav-item{
+
+.nav-item {
   font-size: 0.8rem;
 }
 
@@ -825,6 +846,8 @@ a:hover {
   height: 100vh;
   position: relative;
   color: #fff;
+background-size: cover;
+
 }
 
 .intro .intro-content {
