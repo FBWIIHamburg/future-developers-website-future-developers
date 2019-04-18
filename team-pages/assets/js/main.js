@@ -1,15 +1,15 @@
 (function($) {
-  
-  "use strict";  
+
+  "use strict";
 
   $(window).on('load', function() {
 
-    /* 
+    /*
    MixitUp
    ========================================================================== */
   $('#portfolio').mixItUp();
 
-  /* 
+  /*
    One Page Navigation & wow js
    ========================================================================== */
     var OnePNav = $('.onepage-nev');
@@ -18,7 +18,7 @@
       currentClass: 'active',
       scrollOffset: top_offset,
     });
-  
+
   /*Page Loader active
     ========================================================*/
     $('#preloader').fadeOut();
@@ -52,7 +52,7 @@
 
     wow.init();
 
-    /* Nivo Lightbox 
+    /* Nivo Lightbox
     ========================================================*/
     $('.lightbox').nivoLightbox({
         effect: 'fadeScale',
@@ -87,8 +87,14 @@
         return false;
       });
 
+      $('#more-button').click(function() {
+        var sectionTo = $(this).attr('href');
+        $('html, body').animate({
+          scrollTop: $(sectionTo).offset().top
+        }, 600);
+    });
 
 
-  });      
+  });
 
 }(jQuery));
