@@ -3,12 +3,9 @@ body {
   color: #4e4e4e;
 }
 
-/* gallery style */
-/* end of gallery */
-
 @font-face {
-  font-family: "Black Font";
-  src: url("/fonts/BLACK.ttf");
+  font-family: "Montserrat Font";
+  src: url("/fonts/Montserrat-Regular.ttf");
 }
 
 @font-face {
@@ -226,7 +223,7 @@ h6 {
 #farooq {
   font-size: 150px;
   letter-spacing: 40px;
-  font-family: "Moonglade Font";
+  font-family: "Moonglade Font" !important;
 
 }
 
@@ -809,6 +806,15 @@ a:hover {
   -webkit-transform: rotate(-135deg);
   transform: rotate(-135deg);
   opacity: 0.9;
+}
+
+.navbar{
+  font-family: "Montserrat Font";
+  font-size: 0.7rem;
+  letter-spacing: 0.5rem;
+}
+.nav-item{
+  font-size: 0.8rem;
 }
 
 /*======================================
