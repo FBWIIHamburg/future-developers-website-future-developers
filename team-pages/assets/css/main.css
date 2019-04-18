@@ -3,6 +3,11 @@ html {
   overflow-x: hidden;
 }
 
+@font-face {
+  font-family: "Montserrat Font";
+  src: url("./fonts/Montserrat-Regular.ttf");
+}
+
 body {
   background: #fff;
   font-size: 14px;
@@ -550,6 +555,24 @@ a.back-to-top:hover, a.back-to-top:focus {
 
 .navbar {
   padding: 0;
+  font-family:"Montserrat Font";
+  font-size: 0.7rem;
+  letter-spacing: 0.5rem;
+}
+
+.navbar-brand {
+	color: black;
+	font-size: 1.6rem;
+  font-weight: bold;
+  letter-spacing: 0.5rem;
+}
+
+.nav-item{
+  font-size: 0.8rem;
+  letter-spacing: 0.5rem;
+  font-family: "Montserrat Font";
+  line-height: 1.5;
+
 }
 
 .navbar li.active a.nav-link {
