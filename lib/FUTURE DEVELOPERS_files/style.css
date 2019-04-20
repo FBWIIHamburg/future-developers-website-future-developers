@@ -13,14 +13,22 @@ body {
   src: url("/fonts/Moonglade.ttf");
 }
 
-.btn-primary {
+/* info button */
+/* #fazly,#ozkan{
+  display: inline-block;
+  background: #4285f4;
   color: #fff;
-  background-color: #007bff;
-  border-color: #007bff;
+  text-transform: uppercase;
+  padding: 5px 20px;
+  border-radius: 5px;
+  box-shadow: 0px 17px 10px -10px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  -webkit-transition: all ease-in-out 300ms;
+  transition: all ease-in-out 300ms;
   position: relative;
   right: 199px;
   bottom: 40px;
-}
+} */
 
 
 
