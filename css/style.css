@@ -38,6 +38,7 @@ body {
 }
 
 
+
 /* end of info button */
 /*********************** team members*******************/
 .box1 img,
@@ -1370,9 +1371,18 @@ footer .credits a {
 
 @media (min-width: 577px) {
   .counter-box {
-    margin-bottom: 1.8rem;
+    margin-bottom: 5px;
   }
 }
+/* explore button responsive */
+@media (min-width: 360px) {
+  .btn-primary {
+    margin-left: 14rem;
+    top: 25px;
+  }
+}
+/* end of exp res */
+
 
 @media (min-width: 767px) {
   .about-mf .box-pl2 {
