@@ -18,10 +18,24 @@ body {
   background-color: #007bff;
   border-color: #007bff;
   position: relative;
-  right: 199px;
-  bottom: 40px;
+  right: 205px;
+  bottom: 42px;
 }
 
+.btn-primary:hover{
+  background-color: white;
+  color: black;
+}
+.fa-eye{
+  color: black;
+  font-size: 25px;
+}
+
+.fa-eye:hover{
+  color: rgba(255, 0, 0, 0.589);
+  font-size: 25px;
+  
+}
 
 
 /* end of info button */
@@ -839,6 +853,7 @@ a:hover {
   position: relative;
   color: #fff;
 background-size: cover;
+
 
 }
 
